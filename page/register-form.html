@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register form</title>
+    <link rel="stylesheet" href="../css/register-form.css">
+</head>
+<body>
+<div class="row header col-12 col-s-12">
+    <div class="col-12 col-s-12">
+        <div class=" logo col-2 col-s-2"><img
+                src="https://seeklogo.com/images/A/Aaperture_Science__Portal_-logo-84EA44F1CB-seeklogo.com.png"
+                alt="logo"></div>
+        <div class="banner col-10 col-s-10"><img
+                src="http://www.expandusconsultancy.com/pages/145527790910stu%20portal.jpg" alt="banner"></div>
+    </div>
+    <div class="slogan col-12 col-s-12">Obtain Knowledge and Thrive</div>
+</div>
+<div class="row body col-12 col-s-12">
+    <div class="col-2 col-s-2"></div>
+    <div class="main-content col-8 col-s-8">
+        <form action="" method="post" name="register-box">
+            <div class="row">
+                <div class="label col-4 col-s-4">Full Name</div>
+                <div class="blank-field col-8 col-s-8">
+                    <input type="text" id="fullName" name="fullName">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="label col-4 col-s-4">Email</div>
+                <div class="blank-field col-8 col-s-8">
+                    <input type="text" id="email" name="email">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="label col-4 col-s-4">Telephone Number</div>
+                <div class="blank-field col-8 col-s-8">
+                    <input type="text" id="phone" name="phone">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="label col-4 col-s-4">Gender</div>
+                <div class="blank-field col-8 col-s-8">
+                    <select name="gender">
+                        <option value="5"> ~~~ Select an option ~~~</option>
+                        <option value="1">Male</option>
+                        <option value="0">Female</option>
+                        <option value="2">Other</option>
+                    </select>
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="label col-4 col-s-4">Hobbies</div>
+                <div class="blank-field col-8 col-s-8">
+                    <input type="checkbox" name="hobbies1" value="1"> Sport<br>
+                    <input type="checkbox" name="hobbies2" value="2"> Movies<br>
+                    <input type="checkbox" name="hobbies2" value="3"> Reading<br>
+                    <input type="checkbox" name="hobbies3" value="4"> Music<br>
+                    <input type="checkbox" name="hobbies2" value="5"> Other<br><br>
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="label col-4 col-s-4">Introduction</div>
+                <div class="blank-field col-8 col-s-8">
+                    <textarea name="introduction" rows="10"></textarea>
+                    <span></span>
+                </div>
+            </div>
+            <div class="row button">
+                <div class="col-6 col-s-6"><input type="button" name="btnSubmit" value="Submit"></div>
+                <div class="col-6 col-s-6"><input type="reset" name="btnReset" value="Reset"></div>
+            </div>
+        </form>
+        <div class="new-content col-12 col-s-12" name="new-content" id="new-content"></div>
+    </div>
+    <div class="col-2 col-s-2"></div>
+</div>
+<div class="row footer col-12 col-s-12">
+    <span class="footer-student-name" id="footer-student-name"></span>
+    <span class="footer-student-email" id="footer-student-email"></span>
+    <span class="footer-student-class" id="footer-student-class"></span>
+</div>
+
+<script src="../js/register-form.js"></script>
+</body>
+</html>
